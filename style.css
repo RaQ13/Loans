@@ -61,6 +61,7 @@ span {
 }
 h1 {
     font-size: 4rem;
+    width: 80%;
 }
 .intro__info{
     width: 60%;
@@ -101,7 +102,7 @@ form {
 }
 input {
     border: none;
-    border-bottom: 1px solid var(--text-color);
+    border-bottom: 1px solid lightgray;
     width: calc(100% - 60px);
     line-height: 8px;
     outline: none;
