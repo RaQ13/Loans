@@ -16,7 +16,7 @@ body {
 * {
     box-sizing: border-box;
 }
-a, h1, p {
+a, h1, p, h2 {
     font-family: "Font Awesome 5 Free", sans-serif;
 }
 h1, a {
