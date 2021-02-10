@@ -16,13 +16,16 @@ body {
 * {
     box-sizing: border-box;
 }
+a, h1, p {
+    font-family: "Font Awesome 5 Free", sans-serif;
+}
 h1, a {
     color: var(--main-color);
 }
 p, form, nav ul li a{
     color: var(--text-color);
 }
-.header-logo, span, h1, h2 {
+.header-logo, span, h1, h2, a {
     font-weight: 700;
 }
 header, .container, ul, main, form, .intro__info__icons{
@@ -70,6 +73,7 @@ h1 {
     margin-right: 40px;
     font-size: 1rem;
     font-weight: 600;
+    margin-bottom: 80px;
 }
 .first-icon:before, .second-icon:before, .third-icon:before {
     display: block;
@@ -78,6 +82,7 @@ h1 {
     font-size: 2rem;
     font-weight: bold;
     color: var(--accent-color);
+    margin-bottom: 10px;
 }
 .second-icon:before{
     content: "\f3d1";
@@ -91,7 +96,37 @@ form {
     justify-content: flex-start;
     background-color: white;
     width: 40%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .13);
+    border-radius: 8px;
+}
+input {
+    border: none;
+    border-bottom: 1px solid var(--text-color);
+    width: calc(100% - 60px);
+    line-height: 8px;
+    outline: none;
+    margin-bottom: 10px;
+}
+form * {
+    margin-left: 30px;
 }
 h2 {
     font-size: 2rem;
+    margin: 30px;
+}
+label {
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+form a {
+    text-decoration: none;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: white;
+    font-size: 1.1 rem;
+    font-weight: 600;
+    background-color: var(--accent-color);
+    border-radius: 8px;
 }
